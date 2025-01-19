@@ -1,4 +1,4 @@
-FROM balenalib/raspberry-pi:buster@sha256:da1ad6d2e2853695e8fff8d863545953b080d9a7ffeaca99debb1ce9975897c6
+FROM balenalib/raspberry-pi:buster@sha256:aa9a2dac5959e562ebdbb50d48e4a88ca12341b12efcdcec339cf4083fbb64dc
 
 RUN echo 'APT::Install-Recommends "false";' >/etc/apt/apt.conf.d/00recommends \
     && echo 'APT::Install-Suggests "false";' >>/etc/apt/apt.conf.d/00recommends \
